@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "sk6805_ec15")(type "KiCad")(uri "${KIPRJMOD}/lib/sk6805_ec15.pretty")(options "")(descr ""))
+)
