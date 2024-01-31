@@ -24,9 +24,9 @@
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 855f4026-be04-4d45-891d-d1efbcb98e49))
   (fp_poly
     (pts
-      (xy 0.244083 -0.148876)
-      (xy 0.444083 0.151124)
-      (xy 0.644083 -0.148876)
+      (xy -0.15 -0.244083)
+      (xy 0.15 -0.444083)
+      (xy -0.15 -0.644083)
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp fec5365d-7506-41ad-9ad7-291fcf4c4c9d))
