@@ -7989,6 +7989,9 @@
     (property "Mouser" "538-53261-0371" (at 398.78 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB Position Offset" "1.25,1.25" (at 398.78 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8389195b-356a-44c3-a2e9-7820117d6596))
     (pin "2" (uuid 37202a1b-6857-45c1-82b8-63d2e45accf1))
     (pin "3" (uuid 68266e48-6278-4b4b-9827-471e05208fe8))
@@ -8002,7 +8005,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 120.65 25.4 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061f74a74)
     (property "Reference" "H1" (at 119.38 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8033,7 +8036,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 132.08 25.4 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061f75e86)
     (property "Reference" "H2" (at 130.81 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8053,7 +8056,7 @@
     (property "LCSC" "C2931389" (at 132.08 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a49a4d82-48bd-42b8-95c9-1c983664fc79))
+    (pin "1" (uuid f58814e6-6b7d-4977-9785-52db453daf19))
     (instances
       (project "view_base"
         (path "/5edcefbe-9766-42c8-9529-28d0ec865573"
@@ -8064,7 +8067,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 143.51 25.4 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061f76bf7)
     (property "Reference" "H4" (at 142.24 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8095,7 +8098,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 132.08 40.64 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061f788c4)
     (property "Reference" "H3" (at 130.81 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8126,7 +8129,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 143.51 40.64 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061f79385)
     (property "Reference" "H5" (at 142.24 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8157,7 +8160,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 154.94 40.64 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061f79f4a)
     (property "Reference" "H6" (at 153.67 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8211,23 +8214,26 @@
     (property "Digikey" "USB4510-03-1-A" (at 28.575 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A1" (uuid 002f7484-2b7c-4028-a197-c7ee893455cd))
-    (pin "A12" (uuid b64072d6-c6a3-480c-b247-ced76a0683e2))
-    (pin "A4" (uuid fd650d11-1f43-4a29-b666-0e915ada0015))
-    (pin "A5" (uuid 11059d92-63df-44ac-a943-05eabeaf6b3b))
-    (pin "A6" (uuid 6ca9a15b-7bed-4718-b87f-cf6cd158c0fb))
-    (pin "A7" (uuid 065c4afd-f083-4572-ae73-9f005b8a95bc))
-    (pin "A8" (uuid 62bc0e7f-185a-4e68-985e-5d6bf4e3ea4f))
-    (pin "A9" (uuid f66ea475-b102-46de-8024-e5ca653f9bf4))
-    (pin "B1" (uuid 5baffaf4-808e-4171-9980-10bcb56b2135))
-    (pin "B12" (uuid 8781b105-979a-42b2-819f-1b043b4adf27))
-    (pin "B4" (uuid fac50c0a-4700-4a91-82d0-1c46b35dca25))
-    (pin "B5" (uuid 95895ffd-4330-4c63-aa8a-80105ad94072))
-    (pin "B6" (uuid d3c25891-3308-4e1a-81a3-920c152e8483))
-    (pin "B7" (uuid ded34583-530c-49a3-9bd1-3387d788ac5f))
-    (pin "B8" (uuid bab68279-cb28-4a3f-9bf9-91aaa2b9f18f))
-    (pin "B9" (uuid 25af3105-71ee-4af7-8f3c-eb77a7b9280e))
-    (pin "S1" (uuid 7214610a-9815-4f4b-85c6-8f2cd1130da1))
+    (property "JLCPCB Position Offset" "0,3.95" (at 28.575 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "A1" (uuid 22d8765d-8ba8-41e0-a8ce-88001ce3fd07))
+    (pin "A12" (uuid c1c4143e-dd52-4d08-b812-fdaf4d260505))
+    (pin "A4" (uuid 0d6a0a4f-1dfb-40b0-8eb5-9fef80c6294b))
+    (pin "A5" (uuid 3cf64765-1972-4acb-8e3d-1a0cca995c0e))
+    (pin "A6" (uuid 94127fdd-1b03-464b-b6eb-1aae3c7d7afe))
+    (pin "A7" (uuid 8c4d5c82-9e93-4e24-8421-e67110fd5ef9))
+    (pin "A8" (uuid acba1617-2639-43b1-ba03-2524b4ed7fcd))
+    (pin "A9" (uuid e07668c4-2a66-4a98-822d-65e732b5891f))
+    (pin "B1" (uuid 1a5b0850-524e-40c3-bb91-d03d05535095))
+    (pin "B12" (uuid f53d84a0-5edc-4fab-b6b1-52a1c91e9659))
+    (pin "B4" (uuid 57686d5e-51f1-4483-9cf9-9c2c09e599c6))
+    (pin "B5" (uuid 6ea5e243-2e5e-49bd-bfb8-63949c2a7cc9))
+    (pin "B6" (uuid 5a34b352-285e-4848-a021-4ed4b677814e))
+    (pin "B7" (uuid 570b4a12-6d73-4faa-819c-de6491c39c6a))
+    (pin "B8" (uuid 42df8f6c-0003-46be-82e5-8188426f84da))
+    (pin "B9" (uuid 1bd3341c-5c19-41e5-b2d1-ddccd4f11053))
+    (pin "S1" (uuid ee602aec-d03b-4989-bc8e-5086d7c85eca))
     (instances
       (project "view_base"
         (path "/5edcefbe-9766-42c8-9529-28d0ec865573"
@@ -9828,7 +9834,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 81.28 193.04 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000062179005)
     (property "Reference" "TP5" (at 82.4992 191.8716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10243,7 +10249,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 81.28 195.58 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000621b8956)
     (property "Reference" "TP6" (at 82.4992 194.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10318,7 +10324,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 81.28 198.12 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000621d8fb7)
     (property "Reference" "TP7" (at 82.4992 196.9516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10368,7 +10374,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 379.73 167.64 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000062263aa7)
     (property "Reference" "TP14" (at 380.9492 166.4716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10418,7 +10424,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 379.73 170.18 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000622a8e6d)
     (property "Reference" "TP15" (at 380.9492 169.0116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10443,7 +10449,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 379.73 172.72 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000622cad46)
     (property "Reference" "TP16" (at 380.9492 171.5516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10500,7 +10506,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 156.21 133.35 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000622f4012)
     (property "Reference" "TP8" (at 157.4292 132.1816 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10579,7 +10585,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 156.21 139.7 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000623162cf)
     (property "Reference" "TP9" (at 157.4292 138.5316 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10604,7 +10610,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 171.45 44.45 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000623284d1)
     (property "Reference" "H7" (at 170.18 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10632,7 +10638,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 182.88 44.45 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000623284d9)
     (property "Reference" "H8" (at 181.61 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -11073,6 +11079,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C1850416" (at 62.23 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB Position Offset" "0,1.1" (at 62.23 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4e639396-fd0d-48f3-ae01-491cad4cd2ae))
@@ -11724,7 +11733,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 387.35 60.96 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0d27f58c-94d4-4a81-a190-a6d9845fe122)
     (property "Reference" "TP25" (at 388.5692 59.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -11749,7 +11758,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 387.35 68.58 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0d7e58e4-0700-4f28-b07e-86b863ff0736)
     (property "Reference" "TP28" (at 388.5692 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -12342,7 +12351,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 346.71 30.48 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1e32f4b4-6a08-4be5-8023-9491c020673f)
     (property "Reference" "TP31" (at 347.9292 29.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -12534,7 +12543,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 387.35 71.12 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 282378f2-6211-4acd-ba29-1e0fde761c2f)
     (property "Reference" "TP29" (at 388.5692 69.9516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -14855,6 +14864,9 @@
     (property "PACKAGE" "SMD-41 Espressif Systems" (at 365.76 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB Position Offset" "0,-0.5" (at 365.76 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 79be69e6-07dc-4664-bb86-02f792bebc33))
     (pin "10" (uuid 6b1e20f0-b528-45f7-b53d-7cdbc1725ce5))
     (pin "11" (uuid dab03f57-004f-4020-9c23-4d4894b2eb94))
@@ -15374,7 +15386,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 387.35 66.04 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7b2303b6-dc05-4f15-84a6-35928bdcdbcd)
     (property "Reference" "TP27" (at 388.5692 64.8716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -16638,8 +16650,8 @@
     (property "LCSC" "C38898" (at 456.565 347.98 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f050513b-d5f4-46f8-a4ab-8d526c2f2f59))
-    (pin "2" (uuid 299954f6-5ade-45df-9028-167f74187e76))
+    (pin "1" (uuid 024eabf8-07ba-4996-a914-aab7a4e722c7))
+    (pin "2" (uuid 0207ddf1-eafd-4637-a5b3-409e4e5857e3))
     (instances
       (project "wine_cellar"
         (path "/17188f66-e851-486e-a37f-9f746cc833fd"
@@ -16828,7 +16840,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 387.35 63.5 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b0675434-ac67-401f-a9a6-456459895e50)
     (property "Reference" "TP26" (at 388.5692 62.3316 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -17022,7 +17034,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 387.35 73.66 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b6b7f940-9081-4f4a-a4c4-c37ea7d36f51)
     (property "Reference" "TP30" (at 388.5692 72.4916 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18352,7 +18364,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 319.405 22.86 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid e19cacab-42e2-46a3-9ec8-16f493efe89a)
     (property "Reference" "TP10" (at 320.6242 21.6916 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18377,7 +18389,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 346.71 33.02 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid e25830b5-a08b-42ec-9a2d-4bd2ee998e12)
     (property "Reference" "TP32" (at 347.9292 31.8516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18694,7 +18706,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 319.405 27.94 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid fd2485eb-0265-4d5a-a53a-d200c5900dcc)
     (property "Reference" "TP11" (at 320.6242 26.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -18762,7 +18774,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 387.35 58.42 0) (unit 1)
-    (in_bom no) (on_board no) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid fff68063-6119-4943-a6d5-72d46fe46c5d)
     (property "Reference" "TP24" (at 388.5692 57.2516 0)
       (effects (font (size 1.27 1.27)) (justify left))
