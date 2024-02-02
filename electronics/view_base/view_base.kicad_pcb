@@ -483,33 +483,33 @@
       (stroke (width 0.05) (type solid)) (layer "F.Fab") (tstamp a3d08a16-c66e-4446-aae4-ed2f6e6af88f))
     (fp_line (start 4.47 0.5) (end 4.47 -6)
       (stroke (width 0.05) (type solid)) (layer "F.Fab") (tstamp 0457cfcb-acd5-4792-a095-e8d5d1e8cefa))
-    (pad "A1" smd rect (at -3.2 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A1" smd rect (at -3.2 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 52fab081-d21a-45c7-a183-bb7afc94f327))
-    (pad "A4" smd rect (at -2.4 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A4" smd rect (at -2.4 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 61 "+5V") (pinfunction "VBUS") (pintype "passive") (tstamp fc9da8ca-8c62-434f-b128-efb2d66e7546))
-    (pad "A5" smd rect (at -1.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A5" smd rect (at -1.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "/USB_CC1") (pinfunction "CC1") (pintype "bidirectional") (tstamp 6df9166e-42b4-4403-8efe-39e107b68b82))
-    (pad "A6" smd rect (at -0.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A6" smd rect (at -0.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "/USB_D+") (pinfunction "D+") (pintype "bidirectional") (tstamp b749200d-f816-4520-95f1-b09f5239647f))
-    (pad "A7" smd rect (at 0.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A7" smd rect (at 0.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "/USB_D-") (pinfunction "D-") (pintype "bidirectional") (tstamp 87e7ca3b-28df-491b-9e02-ae654a05fbb2))
-    (pad "A8" smd rect (at 1.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A8" smd rect (at 1.25 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 123 "unconnected-(J1-SBU1-PadA8)") (pinfunction "SBU1") (pintype "bidirectional+no_connect") (tstamp cc991705-ffda-4c50-b7ef-98bda74e5fda))
-    (pad "A9" smd rect (at 2.4 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A9" smd rect (at 2.4 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 61 "+5V") (pinfunction "VBUS") (pintype "passive") (tstamp 57606ed3-16d1-4fd0-b765-da24ce56b91c))
-    (pad "A12" smd rect (at 3.2 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Mask")
+    (pad "A12" smd rect (at 3.2 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 9dcddebc-9f66-4734-bdef-4fe8d95462ae))
     (pad "B1" smd rect (at 3.2 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 0dccfc25-377d-4243-b07c-b0069b2b26c1))
     (pad "B4" smd rect (at 2.4 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Mask")
       (net 61 "+5V") (pinfunction "VBUS") (pintype "passive") (tstamp a0845fc7-de7b-4800-aa22-66d522661c03))
-    (pad "B5" smd rect (at 1.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "B5" smd rect (at 1.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "/USB_CC2") (pinfunction "CC2") (pintype "bidirectional") (tstamp a2308f1e-71dd-4a0f-997d-7149557a9cae))
-    (pad "B6" smd rect (at 0.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "B6" smd rect (at 0.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "/USB_D+") (pinfunction "D+") (pintype "bidirectional") (tstamp cc13d1d9-d12c-40c4-9dca-5e76ed43fe86))
-    (pad "B7" smd rect (at -0.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "B7" smd rect (at -0.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "/USB_D-") (pinfunction "D-") (pintype "bidirectional") (tstamp 8f28932e-abbb-43fc-8713-8a94e8ac2783))
-    (pad "B8" smd rect (at -1.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Mask")
+    (pad "B8" smd rect (at -1.75 -6.75) (size 0.3 1.09) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 124 "unconnected-(J1-SBU2-PadB8)") (pinfunction "SBU2") (pintype "bidirectional+no_connect") (tstamp 091cbf0b-a345-40dc-911e-948bdf83c06e))
     (pad "B9" smd rect (at -2.4 -6.75) (size 0.6 1.09) (layers "F.Cu" "F.Mask")
       (net 61 "+5V") (pinfunction "VBUS") (pintype "passive") (tstamp 299e7baf-f9f8-482d-aab8-acc713f4bd0b))
@@ -523,6 +523,26 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp a358b316-e110-4106-95c7-ada124f0ff74))
     (pad "S1" thru_hole oval (at 5.62 -1.6) (size 1 2.2) (drill oval 0.6 1.8) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 4dd9aa94-f786-4902-861d-1617d1ea0787))
+    (group "pads" (id db9850e3-80d6-4cfa-b652-c010082d1151)
+      (members
+        091cbf0b-a345-40dc-911e-948bdf83c06e
+        0dccfc25-377d-4243-b07c-b0069b2b26c1
+        299e7baf-f9f8-482d-aab8-acc713f4bd0b
+        52fab081-d21a-45c7-a183-bb7afc94f327
+        57606ed3-16d1-4fd0-b765-da24ce56b91c
+        6df9166e-42b4-4403-8efe-39e107b68b82
+        87e7ca3b-28df-491b-9e02-ae654a05fbb2
+        8f28932e-abbb-43fc-8713-8a94e8ac2783
+        9bf83356-bf3c-451e-8048-dc56c4a3f1ff
+        9dcddebc-9f66-4734-bdef-4fe8d95462ae
+        a0845fc7-de7b-4800-aa22-66d522661c03
+        a2308f1e-71dd-4a0f-997d-7149557a9cae
+        b749200d-f816-4520-95f1-b09f5239647f
+        cc13d1d9-d12c-40c4-9dca-5e76ed43fe86
+        cc991705-ffda-4c50-b7ef-98bda74e5fda
+        fc9da8ca-8c62-434f-b128-efb2d66e7546
+      )
+    )
     (model "${KIPRJMOD}/../lib/USB/USB4510-03-1-A.stp"
       (offset (xyz 0 -0.5 0))
       (scale (xyz 1 1 1))
