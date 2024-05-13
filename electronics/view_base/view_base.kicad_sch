@@ -5,11 +5,12 @@
 	(uuid "5edcefbe-9766-42c8-9529-28d0ec865573")
 	(paper "A1")
 	(title_block
-		(title "SmartKnob View")
-		(rev "${RELEASE_VERSION}")
-		(company "Scott Bezek | Grigorii Merkushev (brushknight)")
-		(comment 2 "${COMMIT_DATE_LONG}")
-		(comment 3 "${COMMIT_HASH}")
+		(title "SmartKnob DevKit Base")
+		(date "2024-05-13")
+		(rev "v0.1.0")
+		(company "Seedlabs")
+		(comment 1 "Additional Design by Grigorii Merkushev (brushknight)")
+		(comment 2 "Original Design by Scott Bezek")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Male"
@@ -19239,7 +19240,7 @@
 		)
 		(uuid "56d2bc5d-fd72-4542-ab0f-053a5fd60efa")
 	)
-	(text "Additions done by Seedlabs"
+	(text "Additional Design by Seedlabs"
 		(exclude_from_sim no)
 		(at 304.673 25.146 0)
 		(effects
